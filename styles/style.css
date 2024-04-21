@@ -50,14 +50,13 @@
   display: flex;
   flex-direction: column;
   padding-right: 62px;
-  text-underline-offset: 4px;
-  line-height: 24.3px;
   font-style: normal;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
 }
 
 .cover {
   position: relative;
-  min-height: 757px;
   color: #fff;
   text-align: center;
   text-transform: uppercase;
@@ -77,9 +76,9 @@
 
 .cover__title {
   position: relative;
+  z-index: 1;
   font-weight: bold;
   font-size: 100px;
-  z-index: 1;
   line-height: 1.15;
 }
 
@@ -106,24 +105,26 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  padding-top: 11px;
-  padding-right: 58px; 
+  padding-top: 20px;
+  padding-right: 58px;
+  line-height: 100%; 
 }
 
 .aligned-text_right {
   display: flex;
   justify-content: right;
-  padding-top: 6px;
+  padding-top: 20px;
   padding-right: 50px;
+  line-height: 100%;
 }
 
 .cover__description {
   position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 128px 50px 0 80px;
-  z-index: 1;
+  padding: 135px 50px 52px 80px;
 }
 
 .cover__description-text {
@@ -172,10 +173,10 @@
 }
 
 .card {
+  position: relative;
   display: grid;
   align-items: end;
   align-content: space-between;
-  position: relative;
   min-height: 563px;
   background-position: center;
   background-size: cover;
@@ -275,16 +276,8 @@
 }
 
 .footer__address {
-  line-height: 24.3px;
-}
-
-.footer__address-list-item {
-  list-style: none;
-}
-
-.footer__address-item {
   font-style: normal;
-  text-underline-offset: 4px;
+  line-height: 24.3px;
 }
 
 .footer__menu {
